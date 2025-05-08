@@ -1,0 +1,56 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin-bottom: 20px;
+}
+
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  margin-bottom: 20px;
+}
+
+@keyframes slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(200px); }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 50px 50px;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.vertical {
+  grid-row: span 2;
+  background-color: lightcoral;
+}
+
+.horizontal {
+  grid-column: span 2;
+  background-color: lightgreen;
+}
+
+.box-model {
+  width: 150px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 20px;
+  background-color: lightyellow;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.none {
+  display: none;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Day 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Question - 1: Sizing?</h1>
+  <p>
+    <strong>Answer:</strong><br>
+    Sizing refers to setting the width and height of elements using properties like:<br>
+    1. width, height<br>
+    2. max-width, max-height<br>
+    3. min-width, min-height
+  </p>
+  <h2>Example:</h2>
+  <div class="box"></div>
+
+  <h1>Question - 2: What is animation-delay?</h1>
+  <p>
+    <strong>Answer:</strong><br>
+    Animation-delay defines how long to wait before starting an animation.
+  </p>
+  <h2>Example:</h2>
+  <div class="animated-box"></div>
+
+  <h1>Question - 3: Which property to merge cells vertically in grid?</h1>
+  <p>
+    <strong>Answer:</strong><br>
+    Use <code>grid-row: span n;</code> to merge cells vertically.
+  </p>
+  <h2>Example:</h2>
+  <div class="grid">
+    <div>1</div>
+    <div class="vertical">2 (merged)</div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+
+  <h1>Question - 4: Which property to merge cells horizontally in grid?</h1>
+  <p>
+    <strong>Answer:</strong><br>
+    Use <code>grid-column: span n;</code> to merge cells horizontally.
+  </p>
+  <h2>Example:</h2>
+  <div class="grid">
+    <div class="horizontal">1 (merged)</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+  <h1>Question - 5: Explain CSS Box Model</h1>
+  <p>
+    <strong>Answer:</strong><br>
+    The CSS Box Model includes:<br>
+    - Content: actual content<br>
+    - Padding: space around content<br>
+    - Border: around padding<br>
+    - Margin: space outside the border
+  </p>
+  <h2>Example:</h2>
+  <div class="box-model">Box Model</div>
+
+  <h1>Question - 6: Difference between display: none and visibility: hidden?</h1>
+  <p>
+    <strong>Answer:</strong><br>
+    - <code>display: none</code> removes the element from layout.<br>
+    - <code>visibility: hidden</code> hides the element but reserves space.
+  </p>
+  <h2>Example:</h2>
+  <p class="hidden">This is hidden using visibility.</p>
+  <p class="none">This is hidden using display.</p>
+
+</body>
+</html>
